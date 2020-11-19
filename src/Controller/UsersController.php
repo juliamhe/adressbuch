@@ -109,7 +109,7 @@ class UsersController extends AppController
 			if ($user) {
 			$this->Auth->setUser($user);
 
-			return $this->redirect(['controller' => 'users']);
+			return $this->redirect(['controller' => 'adressbuch']);
 }			
 
  //Bad login
@@ -118,7 +118,7 @@ class UsersController extends AppController
 
 	}
 	public function logout() {
-		$this->Flash->success('You are loggoed out');
+		$this->Flash->success('You are logged out');
 		return $this->redirect($this->Auth->logout());
 }
 	public function beforeFilter(\Cake\Event\EventInterface $event) {
