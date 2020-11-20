@@ -5,7 +5,7 @@
  */
 ?>
 <div class="adressbuch index content">
-    <?= $this->Html->link(__('New Adressbuch'), ['action' => 'add'], ['class' => 'button float-right']) ?>
+    <?= $this->Html->link(__('Neuer Eintrag'), ['action' => 'add'], ['class' => 'button float-right']) ?>
     <h3><?= __('Adressbuch') ?></h3>
     <div class="table-responsive">
         <table>
