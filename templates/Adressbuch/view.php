@@ -11,7 +11,7 @@
             <?= $this->Html->link(__('Edit Adressbuch'), ['action' => 'edit', $adressbuch->id], ['class' => 'side-nav-item']) ?>
             <?= $this->Form->postLink(__('Delete Adressbuch'), ['action' => 'delete', $adressbuch->id], ['confirm' => __('Are you sure you want to delete # {0}?', $adressbuch->id), 'class' => 'side-nav-item']) ?>
             <?= $this->Html->link(__('List Adressbuch'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
-            <?= $this->Html->link(__('New Adressbuch'), ['action' => 'add'], ['class' => 'side-nav-item']) ?>
+            <?= $this->Html->link(__('Neuer Eintrag'), ['action' => 'add'], ['class' => 'side-nav-item']) ?>
         </div>
     </aside>
     <div class="column-responsive column-80">
