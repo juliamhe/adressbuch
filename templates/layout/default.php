@@ -39,7 +39,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
     <nav class="top-nav">
         <div class="top-nav-title">
-            <a> Adressbuch </a>
+            <a> Mein Adressbuch </a>
         </div>
         <div class="top-nav-links">
 
