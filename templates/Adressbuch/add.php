@@ -8,14 +8,14 @@
     <aside class="column">
         <div class="side-nav">
             <h4 class="heading"><?= __('Actions') ?></h4>
-            <?= $this->Html->link(__('List Adressbuch'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
+            <?= $this->Html->link(__('Adressbuch anzeigen'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
         </div>
     </aside>
     <div class="column-responsive column-80">
         <div class="adressbuch form content">
             <?= $this->Form->create($adressbuch) ?>
             <fieldset>
-                <legend><?= __('Add Adressbuch') ?></legend>
+                <legend><?= __('Neuen Eintrag hinzufügen') ?></legend>
                 <?php
                     echo $this->Form->control('name');
                     echo $this->Form->control('adresse');
