@@ -36,13 +36,13 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->fetch('script') ?>
 </head>
 <body>
+
     <nav class="top-nav">
         <div class="top-nav-title">
             <a> Adressbuch </a>
         </div>
         <div class="top-nav-links">
-            <a target="_blank" rel="noopener" href="https://book.cakephp.org/4/">Documentation</a>
-            <a target="_blank" rel="noopener" href="https://api.cakephp.org/">API</a>
+
 			<?php if ($authUser) { ?>
 			<?= $this->Html->link('Logout', ['controller' => 'users', 'action' => 'logout']); ?>
 			<?php } else { ?>
